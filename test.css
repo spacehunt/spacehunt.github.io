@@ -1,0 +1,71 @@
+body
+{
+	background-color:#3770A0;
+}
+
+@font-face {
+    font-family: 'DK liquid embrace';
+    src: url('DK liquid embrace-webfont.eot');
+    src: url('DK liquid embrace-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DK liquid embrace-webfont.woff2') format('woff2'),
+         url('DK liquid embrace-webfont.woff') format('woff'),
+         url('DK liquid embrace-webfont.ttf') format('truetype'),
+         url('DK liquid embrace-webfont.svg#DK liquid embrace') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lemon/milk';
+    src: url('lemon/milk-webfont.eot');
+    src: url('lemon/milk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lemon/milk-webfont.woff2') format('woff2'),
+         url('lemon/milk-webfont.woff') format('woff'),
+         url('lemon/milk-webfont.ttf') format('truetype'),
+         url('lemon/milk-webfont.svg#DK liquid embrace') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'COCOMAT';
+    src: url('COCOMAT-webfont.eot');
+    src: url('COCOMAT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('COCOMAT-webfont.woff2') format('woff2'),
+         url('COCOMAT-webfont.woff') format('woff'),
+         url('COCOMAT-webfont.ttf') format('truetype'),
+         url('COCOMAT-webfont.svg#COCOMAT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#numbers {
+display: inline-block;
+font-family: 'lemon/milk';
+font-size: 20px;
+padding-top: 10px;
+}
+
+
+#logo {
+color: #FFFFFF;
+padding: 10px;
+font-size: 50px;
+font-family: 'DK liquid embrace';
+}
+
+
+#smallscreen{
+font-family: 'COCOMAT';
+width: 550px;
+height: 450px;
+border: 1px solid;
+color:#FFFFFF;
+background-image: url("test.png");
+background-repeat: repeat;
+background-attachment: absolute;
+background-position: center;
+}
