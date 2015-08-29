@@ -69,3 +69,15 @@ background-repeat: repeat;
 background-attachment: absolute;
 background-position: center;
 }
+
+.buttonnext{ 
+display: inline-block;
+padding: 8px 20px;
+background:#eee;
+border: 5px solid #569;
+border-radius: 999px;
+color:         #000;
+font-family: 'COCOMAT';
+text-align:    center;
+text-shadow:   1px 1px 0 #000;
+}
